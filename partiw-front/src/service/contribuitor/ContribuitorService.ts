@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Contribuitor, ContribuitorResponse } from "./types";
 
-const API_URL = "https://54.152.151.234:8080/api";
+const API_URL = "http://54.152.151.234:8080/api";
 
 export default {
   postCreate: async (
