@@ -3,6 +3,7 @@ services:
     build:
       context: ./partiw-back/api
       dockerfile: Dockerfile
+    image: meu-backend:1.0 # Nome e tag da imagem para o backend
     ports:
       - "8080:8080"
     networks:
